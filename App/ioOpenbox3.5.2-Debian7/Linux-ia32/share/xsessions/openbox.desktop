@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Openbox
+Comment=Log in using the Openbox window manager (without a session manager)
+Exec=/home/Openbox/.App/ioOpenbox3.5.2-Debian7/Linux-ia32/bin/openbox-session
+TryExec=/home/Openbox/.App/ioOpenbox3.5.2-Debian7/Linux-ia32/bin/openbox-session
+Icon=openbox
+Type=Application

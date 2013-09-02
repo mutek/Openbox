@@ -1,0 +1,3 @@
+APP_BIN=startOpenbox
+APP_NAME=Openbox
+APP_ROOT=ioOpenbox3.5.2-Debian7/Linux-ia32

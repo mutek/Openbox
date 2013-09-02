@@ -1,0 +1,20 @@
+#!/usr/bin/env sh
+#
+# Andromeda
+#
+# OpenBox startOpenbox control wrapper
+
+
+RELEASE="3.5.2"
+
+BASE_PREFIX="/home/Openbox/.App/ioOpenbox$RELEASE-Debian7/Linux-ia32"
+
+export LD_LIBRARY_PATH=/home/Openbox/.App/ioOpenbox$RELEASE-Debian7/Linux-ia32/lib:/home/Openbox/.App/ioOpenbox$RELEASE-Debian7/Linux-ia32/libexec:$LD_LIBRARY_PATH
+
+export PATH=/home/Openbox/.App/ioOpenbox$RELEASE-Debian7/Linux-ia32/bin:$PATH
+
+export GTK2_RC_FILES=$BASE_PREFIX/share/themes/Fawn/gtk-2.0/gtkrc
+
+
+
+/home/Openbox/.App/ioOpenbox$RELEASE-Debian7/Linux-ia32/bin/openbox

@@ -1,0 +1,2 @@
+export LC_ALL=C
+./configure --prefix=/home/Openbox/.App/ioOpenbox3.5.2-Debian7/Linux-ia32 --sysconfdir=/home/Openbox/.App/ioOpenbox3.5.2-Debian7/Linux-ia32/etc --disable-librsvg
